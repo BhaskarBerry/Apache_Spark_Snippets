@@ -1,2 +1,13 @@
 *.class
 *.log
+.project
+.classpath
+.settings
+/target/
+/project/target
+/project/project/target
+.idea/
+**/target
+metastore_db/
+spark-warehouse/
+

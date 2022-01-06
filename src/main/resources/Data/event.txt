@@ -1,0 +1,19 @@
+organizer,name,budget
+BookMyShow,Beyond The Decor,50000
+BookMyShow,Birthday Bash,30000
+BookMyShow,DreamTeam,45000
+Zomato,Party Pies,70000
+Zomato,Dancing Leaf,55000
+Swiggy,Triple Time,35000
+Swiggy,Oak Street Event,60000
+Swiggy,Victoria Glen Events,80000
+BookMyShow,Beyond The Decor,50000
+BookMyShow,Birthday Bash,30000
+BookMyShow,DreamTeam,45000
+Zomato,Zomaland,100000
+Zomato,Dancing Leaf,55000
+Swiggy,SwigyLand,75000
+Swiggy,Oak Street Event,60000
+Swiggy,Victoria Glen Events,80000
+
+

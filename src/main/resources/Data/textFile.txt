@@ -1,0 +1,4 @@
+    Apache Spark has 3 different join types: Broadcast joins, Sort Merge joins and Shuffle Joins. Starting from
+Apache Spark 2.3 Sort Merge.
+    Apache Spark has 3 different join types: Broadcast joins, Sort Merge joins and Shuffle Joins. Starting from
+Apache Spark 2.3 Sort Merge.
