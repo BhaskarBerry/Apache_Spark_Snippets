@@ -1,4 +1,6 @@
-package apache.berry.tutorial.spark.sql
+package apache.berry.tutorial.spark.sql.Joins
+
+import apache.berry.tutorial.spark.sql.{sc, spark}
 
 object InnerJoin extends App {
 

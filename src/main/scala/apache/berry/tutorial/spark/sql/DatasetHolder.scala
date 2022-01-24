@@ -1,6 +1,6 @@
 package apache.berry.tutorial.spark.sql
 
-import apache.berry.tutorial.spark.sql.DSJoin.{LeftJoinedRows, OuterJoinedRows}
+import apache.berry.tutorial.spark.sql.Joins.DSJoin.{LeftJoinedRows, OuterJoinedRows}
 import org.apache.spark.sql.{Column, Dataset, Encoder}
 
 object DatasetHolder {

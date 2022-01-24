@@ -1,12 +1,17 @@
-package apache.berry.tutorial.spark.sql
+package apache.berry.tutorial.spark.sql.Joins
+
+import apache.berry.tutorial.spark.sql.{sc, spark}
 
 object DSJoin extends App {
+
   import spark.implicits._
 
   case class Customer(customerId: Int, customerName: String)
+
   case class Payment(paymentId: Int, custId: Int, amount: Int)
 
   case class LeftJoinedRows[A, B](left: A, right: Option[B])
+
   case class OuterJoinedRows[A, B](left: Option[A], right: Option[B])
 
   val paymentDS = sc.parallelize(Seq((1, 101, 25000), (2, 102, 43354), (3, 103, 76565), (4, 104, 456785)))
