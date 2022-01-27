@@ -17,6 +17,7 @@ resolvers ++= Seq(
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
+  "org.apache.spark" %% "spark-hive" % sparkVersion,
 
   // streaming
   "org.apache.spark" %% "spark-streaming" % sparkVersion,
@@ -41,3 +42,4 @@ libraryDependencies ++= Seq(
   //pureconfig
   "com.github.pureconfig" %% "pureconfig" % "0.13.0"
 )
+
