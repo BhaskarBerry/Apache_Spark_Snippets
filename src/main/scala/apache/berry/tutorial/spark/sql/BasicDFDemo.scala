@@ -25,11 +25,13 @@ object BasicDFDemo extends App{
 
   val capitalDF = Seq(
     ("India", "NewDelhi", 18758765),
+    ("India", "NewDelhi", 5875875),
     ("Germany", "Berlin", 456789),
     ("Japan", "Tokyo", 789456),
     ("Spain", "Madrid", 45618)
   ).toDF("country", "capital", "population")
 
+  val testDf = capitalDF
   capitalDF.show()
   capitalDF.printSchema()
   /*
@@ -86,4 +88,13 @@ object BasicDFDemo extends App{
   |  Japan|  Tokyo|    789456|
   +-------+-------+----------+
    */
+
+  testDf.createOrReplaceTempView("TestDFResult")
+
+  spark.sql(
+    """Select country, capital, max(population)
+      |  from TestDFResult
+      |  group by country, capital
+      |""".stripMargin
+  ).show(false)
 }

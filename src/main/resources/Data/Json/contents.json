@@ -1,0 +1,23 @@
+[
+{
+  "trip_id": "TK001",
+  "participants": [
+    {
+      "name": "Bhaskar Berry",
+      "age": 31,
+      "location": {
+        "city": "Bangalore",
+        "state": "KA"
+      }
+    },
+    {
+      "name": "Ayub",
+      "age": 30,
+      "location": {
+        "city": "BA",
+        "state": "California"
+      }
+    }
+  ]
+}
+]
