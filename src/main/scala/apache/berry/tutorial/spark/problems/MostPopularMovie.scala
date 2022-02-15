@@ -2,8 +2,8 @@ package apache.berry.tutorial.spark.problems
 
 object MostPopularMovie {
 
-  private val movieIdResource = this.getClass.getResource("/Data/movie_id.csv").toString
-  private val movieNameResource = this.getClass.getResource("/Data/movie_name.csv").toString
+  private val movieIdResource = this.getClass.getResource("/Data/Movies/movie_id.csv").toString
+  private val movieNameResource = this.getClass.getResource("/Data/Movies/movie_name.csv").toString
 
   case class MovieId(user_id: Int, movie_id: Int, rating: Int, timestamp: String)
   case class MovieName(movie_id: Int, movie_name: String)
