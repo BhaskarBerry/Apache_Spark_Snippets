@@ -40,6 +40,8 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.3.1",
 
   //pureconfig
-  "com.github.pureconfig" %% "pureconfig" % "0.13.0"
-)
+  "com.github.pureconfig" %% "pureconfig" % "0.13.0",
 
+  // Excel file loading
+  "com.crealytics" %% "spark-excel" % "0.13.7"
+)
